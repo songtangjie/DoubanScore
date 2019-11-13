@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <image class="logo" scr="/assets/imgs/ic_launcher.png" />
+  <view class="wechat btn-login" bindtap="wechatLogin">微信登录</view>
+  <view class="douban btn-login" bindtap="doubanLogin">已有豆瓣账号登录</view>
+
+  <view class="agreement">登录表示同意
+    <view class="open" bindtap="openAgreement">豆瓣使用协议/隐私协议</view>
+  </view>
+</view>
+
+
+

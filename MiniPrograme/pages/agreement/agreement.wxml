@@ -1,0 +1,2 @@
+<!--pages/agreement/agreement.wxml-->
+<web-view scr="https://www.baidu.com"></web-view>
