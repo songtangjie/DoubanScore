@@ -1,0 +1,28 @@
+<!--pages/list/list.wxml-->
+<nav-bar 
+bind:backTap="back" 
+bind:homeTap="home" 
+title="{{title}}"
+></nav-bar>
+<view class="container">
+    <view class="item"
+        wx:for="{{ movies }}" 
+        wx:key="unique"
+        wx:for-item="movie"
+    >
+        <movie-item class="item" movie="{{movie}}"></movie-item>
+    </view>
+</view>
+
+<!-- <view class="container">
+    <movie-item class="item" 
+    wx:for="{{ movies }}" 
+    wx:key="unique"
+    wx:for-item="movie"
+    movie="{{movie}}"
+    ></movie-item>
+    <view wx:if="{{ movies.length % 3 > 0 }}" class="item hide">
+    </view>
+    <view wx:if="{{ movies.length % 3 == 1 }}" class="item hide">
+    </view>
+</view> -->

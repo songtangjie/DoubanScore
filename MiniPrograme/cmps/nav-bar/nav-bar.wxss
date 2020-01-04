@@ -1,0 +1,32 @@
+/* cmps/nav-bar/nav-bar.wxss */
+.nav-bar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-style: 32rpx;
+    font-weight: bold;
+}
+
+.icons
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30rpx;
+}
+
+.icons image
+{
+    width: 32rpx;
+    height: 32rpx;
+}
+
+.home
+{
+    margin-left: 40rpx;
+}

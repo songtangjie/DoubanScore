@@ -1,14 +1,15 @@
 /* pages/home/home.wxss */
-.header
+.search-wrapper
 {
   background-color: #42BD55;
   height: 80rpx;
   display: flex;
   align-items: center;
   padding: 0 15rpx;
+  margin-bottom: 30rpx;
 }
 
-.search-wrapper
+.search
 {
   background-color: #fff;
   border-radius: 10rpx;
@@ -19,9 +20,64 @@
   align-items: center;
 }
 
-.search-wrapper image
+.search image
 {
   width: 32rpx;
   height: 32rpx;
   margin-right: 10rpx;
+}
+
+.row
+{
+  margin-bottom: 30rpx;
+  height: 382rpx;
+}
+
+.title-wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.title-wrapper .title
+{
+  color: #494949;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.title-wrapper .more
+{
+  color: #0DB019;
+  display: flex;
+  align-items: center;
+}
+
+.title-wrapper .arrow
+{
+  width: 10rpx;
+  height: 10rpx;
+  border: 2rpx solid #0DB019;
+  border-left: none;
+  border-top: none;
+  transform: rotate(-45deg);
+  margin-left: 6rpx;
+}
+
+.items
+{
+  white-space: nowrap;
+}
+
+.item
+{
+  margin-left: 30rpx;
+}
+
+.item:last-of-type
+{
+  margin-right: 30rpx;
 }
